@@ -1,33 +1,26 @@
+body {
+    background: rgb(139, 146, 114);
+    background: linear-gradient(90deg, rgb(226, 230, 223) 1%, rgb(131, 224, 9) 26%, rgb(133, 226, 11) 76%, rgba(11, 61, 71, 1) 99%);
+}
 
-.card{
-    height: 80vh !important;
-    width: 380px !important;
-    margin-top: 1em !important;
-    margin-left: 1em !important;
-    background-color: whitesmoke !important;
-    box-shadow: 5px 5px 15px grey;
-}  
-.weatherInfo{
-    margin-top: 2px;
+.card-header {
+    background-color: rgb(235, 174, 7);
+    color: white;
+    text-transform: uppercase;
 }
-h1{
-    background-color:gray !important ;
-    text-align: center !important;
-    font-weight: bolder !important;
-    font-size: 1.5em !important;
-    height: 2em;
+
+.card {
+    background: rgb(254, 175, 210);
+    background: radial-gradient(circle, rgba(254, 175, 210, 1) 23%, rgba(245, 221, 232, 1) 63%);
+
 }
-.card-img-top{
-    margin-top: 1em !important;
-    height: 40vh !important;
-    width: 90% !important;
-    margin-left: 1.5em !important;
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
 }
-.card-text{
-    text-align: center !important;
-    margin: 1em;
-}
-.btn{
-    margin-left: 4.5em !important; 
+
+img {
+    border: 1px solid white;
 
 }
